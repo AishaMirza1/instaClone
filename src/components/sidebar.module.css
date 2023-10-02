@@ -1,0 +1,86 @@
+.sideBar{
+   padding: 3rem 2.7rem;
+   height: 100vh;
+   font-family: sans-serif;
+   letter-spacing: .8px;
+   border-right: .06px solid rgb(212, 210, 210) ;
+   background-color: white;
+}
+.sideBar h1{
+    font-size: 3.6rem;
+}
+.sideBar ul{
+    margin-top: 4rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+  
+}
+.sideBar ul li{
+    margin-bottom: 3rem;
+}
+.sideBar ul li a {
+    color: rgb(8, 8, 8);
+}
+
+.sideBar ul li a svg{
+    margin-bottom: -4px;
+    margin-right: 12px;
+   font-size: 2.5rem;
+}
+
+@media only screen and (max-width: 1260px) {
+    .sideBar{
+        padding: 3rem 2rem;
+     }
+    .sideBar span{
+        display: none;
+    }
+    .sideBar ul li a svg{
+       font-size: 2.6rem;
+    }
+}
+@media only screen and (max-width: 765px) {
+    .sideBar ul{
+        position: fixed;
+        z-index: 99999;
+        width: 100vw;
+        bottom: 0;
+        right: 0;
+        display: flex;
+        justify-content: space-evenly;
+        border-top: .06px solid rgb(212, 210, 210) ;
+        background-color: white;
+    }
+    .sideBar{
+        position:fixed;
+        width: 100%;
+        z-index: 999;
+        padding: 1rem 2.7rem ;
+        height: 6rem;
+        border-bottom: .06px solid rgb(212, 210, 210) ;
+    }
+    .sideBar h1{
+        font-size: 2.8rem;
+    }
+    .sideBar ul li:nth-child(2) , .sideBar ul li:nth-child(6) {
+        position: fixed;
+        top:0%;
+    }
+    .sideBar ul li:nth-child(6){
+        left: 90%;
+        top: 1%;
+    }
+    .sideBar ul li:nth-child(6) a svg{
+        font-size: 3.3rem;
+     }
+    .sideBar ul li:nth-child(2){
+        right: 12%;
+    }
+    .sideBar ul li {
+      margin: 1rem auto;
+    }
+    .sideBar ul li a svg{
+        font-size: 2.4rem;
+     }
+}
+
