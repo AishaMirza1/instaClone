@@ -1,142 +1,21 @@
+import Post from "./Post"
 import styles from "./feed.module.css"
 export default function Feed(){
-    return<div className={styles.feed}>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
-        <h1>Feed</h1>
+    return<div className="grid-col-2 mid-align">
+        <div>
+            <Post />
+            <Post />
+            <Post />
+            <Post />
+            <Post />
+            <Post />
+            <Post />
+            <Post />
+            <Post />
+            <Post />
+            <Post />
+            <Post />
+            <Post />
+        </div>
     </div>
 }

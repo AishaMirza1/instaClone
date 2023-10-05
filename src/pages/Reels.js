@@ -1,3 +1,10 @@
+import { SideBar } from "../components/SideBar";
+
 export function Reels(){
-    return <h1>Reels</h1>
+    return (
+        <div className="grid">
+            <SideBar/>
+            <div className="grid-col-2 mid-align">reeels</div>
+        </div>
+    )
 }

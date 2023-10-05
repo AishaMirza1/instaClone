@@ -1,4 +1,5 @@
 .feed{
-  
+    margin: 2rem auto;
+    grid-column-start:2
 }
 

@@ -10,7 +10,7 @@
 }
 @media only screen and (max-width: 770px) {
     .homePage{
-       grid-template-columns: 1fr;
-       grid-template-rows: 50px calc(100vh - 80px);
+       grid-template-columns: 0;
+       grid-template-rows: 45px calc(100vh - 80px);
     }
 }

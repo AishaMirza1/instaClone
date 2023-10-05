@@ -4,6 +4,7 @@ html{
 * {
   margin: 0;
   padding: 0;
+  font-family: sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   box-sizing: border-box;
@@ -24,4 +25,26 @@ li a.active{
   font-weight: 600;
   font-size: 1.7rem;
   color: black;
+}
+.grid{
+  display: grid;
+  grid-template-columns: 16% 60%;
+}
+
+@media only screen and (max-width: 1260px) {
+  .grid{
+      grid-template-columns: 70px 60%;
+  }
+}
+@media only screen and (max-width: 770px) {
+  .grid{
+     grid-template-columns: 0;
+     grid-template-rows: 45px calc(100vh - 80px);
+  }
+}
+.grid-col-2{
+  grid-column-start:2
+}
+.mid-align{
+  margin: 0 auto;
 }

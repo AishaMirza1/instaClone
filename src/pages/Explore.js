@@ -1,3 +1,15 @@
+import { SideBar } from "../components/SideBar"
+
 export function Explore(){
-    return <h1>Explore</h1>
+    return (<div className="grid" >
+        <SideBar/>
+        <div className="grid-col-2">
+            <div className={StyleSheet.exploreContainer}>
+                
+            </div>
+        </div>
+    </div>
+        
+    )
+    
 }

@@ -1,10 +1,11 @@
 .sideBar{
    padding: 3rem 2.7rem;
    height: 100vh;
-   font-family: sans-serif;
    letter-spacing: .8px;
    border-right: .06px solid rgb(212, 210, 210) ;
    background-color: white;
+   position:fixed;
+   z-index: 99999999;
 }
 .sideBar h1{
     font-size: 3.6rem;
@@ -13,19 +14,19 @@
     margin-top: 4rem;
     font-size: 1.5rem;
     font-weight: 500;
-  
+    position: relative;
 }
 .sideBar ul li{
     margin-bottom: 3rem;
 }
-.sideBar ul li a {
+.sideBar ul li a span{
     color: rgb(8, 8, 8);
 }
 
 .sideBar ul li a svg{
-    margin-bottom: -4px;
-    margin-right: 12px;
-   font-size: 2.5rem;
+    margin: 1rem 1rem 0 0;
+    
+   font-size: 2.7rem;
 }
 
 @media only screen and (max-width: 1260px) {
@@ -52,9 +53,8 @@
         background-color: white;
     }
     .sideBar{
-        position:fixed;
-        width: 100%;
         z-index: 999;
+        width: 100%;
         padding: 1rem 2.7rem ;
         height: 6rem;
         border-bottom: .06px solid rgb(212, 210, 210) ;

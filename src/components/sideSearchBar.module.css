@@ -1,0 +1,40 @@
+.sideSearchBar{
+    padding: 2rem;
+    background-color: #ffffff;
+    border-left:.06px solid #d4d2d2 ;
+    height: 100vh;
+    width: 40rem;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 5px 0 5px -5px #333;
+    position: absolute;
+    top:0;
+    background-color: #ffffff;
+
+    transform: translateZ(-9px);
+    transform: translateX(-150%);
+}
+.sideSearchBar h2{
+    font-size: 2.2rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+.sideSearchBar input{
+    margin-bottom: 3rem;
+}
+.sideSearchBar hr{
+    padding: 0;
+    color: #d4d2d2;
+    margin-left: -5.9%;
+    width: 110.9%;
+    margin-bottom: 2rem;
+}
+.sideSearchBar p:nth-child(4){
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+.sideSearchBar p:nth-child(5){
+   text-align: center;
+   font-size: 1.4rem;
+   margin-top: 8rem;
+}
